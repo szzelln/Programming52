@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T15:35:15.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HtLFUSjAOEVZHRcU0bcW" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T15:36:53.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4efNkuGg_OyEH6Kwu4s5" version="21.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="621" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="1311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -116,10 +116,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-50" value="Animation" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=40;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="770" width="1270" height="850" as="geometry" />
+          <mxGeometry x="1241" y="290" width="1270" height="850" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-51" value="AnimationAsset" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="930" width="550" height="456" as="geometry">
+          <mxGeometry x="1281" y="450" width="550" height="456" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -160,7 +160,7 @@
           <mxGeometry y="416" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-62" value="AnimationInstance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1320" y="830" width="540" height="740" as="geometry">
+          <mxGeometry x="1921" y="350" width="540" height="740" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -234,7 +234,7 @@
           <mxGeometry y="700" width="540" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-90" value="AnimationAsset은 애니메이션의 기본 데이터와 비트맵 이미지를 관리하고,&lt;br&gt;AnimationInstance은&amp;nbsp;실제로 애니메이션을 실행하고 화면에 렌더링하는 데 사용.&lt;br&gt;AnimationInstance은 특정 AnimationAsset에 의존하여 애니메이션 실행." style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="715" y="1470" width="480" height="100" as="geometry" />
+          <mxGeometry x="1316" y="990" width="480" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="RoebklaST0RuIXWUr79K-90">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -243,8 +243,8 @@
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-94" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1230" y="1169" as="sourcePoint" />
-            <mxPoint x="1320" y="1170" as="targetPoint" />
+            <mxPoint x="1831" y="689" as="sourcePoint" />
+            <mxPoint x="1921" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-101" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.769;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.923;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
