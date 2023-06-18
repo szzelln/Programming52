@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T13:33:15.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8G2JWNmfba9_xsb1dfe6" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T15:35:15.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HtLFUSjAOEVZHRcU0bcW" version="21.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1232" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="621" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -45,34 +45,40 @@
         <mxCell id="RoebklaST0RuIXWUr79K-6" value="&lt;h1 style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;게임엔진에 필요한 프레임워크&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;line-height: 130%;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;wWinMain : 메인함수&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;GameApp : 기본 윈도우 생성, 메세지 처리, 게임 루프&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Render System : 렌더링&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Input System : 키 입력&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Sound System : 사운드 재생 및 관리&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Time System : 타임관리&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Animation : 애니메이션&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Resource Manager :&amp;nbsp;&lt;/span&gt; 이미지, 텍스처, 사운드 등 자원 로드하고 관리&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Physics Simulation : 물리 시뮬레이션(Rigidbody)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Collision Detection : 충돌 감지(Collider)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Scene Manager : 게임 내 씬 관리 (장면 전환 및 관리)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Object Manager : 게임 내 객체&lt;/span&gt;의 생성, 삭제, 업데이트, 렌더링 등 처리 및 객체 간의 상호작용 관리&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeOpacity=100;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=0;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="10" width="600" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-13" value="D2DRenderer" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="360" width="160" height="216" as="geometry">
+        <mxCell id="RoebklaST0RuIXWUr79K-13" value="D2DRenderer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="290" width="500" height="380" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-14" value="Street" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-14" value="D2DRenderer() : 생성자. 어디서든 렌더러 객체에 접근하기 쉽게 인스턴스를 저장" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="26" width="500" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-15" value="City" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-15" value="~D2DRenderer() : 멤버 변수들의 메모리를 해제하고, COM 객체의 릴리스와&#xa;                              CoUninitialize() 함수를 호출하여 COM 사용을 종료" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="52" width="500" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-16" value="State" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-16" value="Initialize() : Direct2D 및 DirectWrite를 초기화하는 작업을 수행.&#xa;                   COM 라이브러리를 초기화&#xa;                  브러시와 텍스트 포맷을 생성&#xa;                  렌더타겟을 만들수있는 팩토리 객체를 생성하고 인터페이스 포인터를 얻어옴." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="90" width="500" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-17" value="Postal Code" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-43" value="CreateD2DBitmapFromFile() : 파일 경로를 입력받아 해당 파일로부터 D2D1 비트맵을 생성&#xa;                                                 생성된 비트맵은 컨테이너에 저장되어 나중에 재사용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="160" width="500" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-18" value="Country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-18" value="CreateAnimationAsset() : 애니메이션 리소스를 생성. 이미 동일한 경로의 애니메이션&#xa;                                          리소스가 존재하는 경우, 기존 리소스의 참조를 반환" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="198" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-45" value="ReleaseD2DBitmapFromFile() : D2D1 비트맵을 해제하는 함수. 비트맵의 레퍼런스 카운트를&#xa;                                               확인하고, 카운트가 0인 경우 해당 비트맵을 컨테이너에서 제거" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="234" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-44" value="ReleaseAnimationAsset() : 애니메이션 리소스 해제. 참조 카운트를 감소시키고,&#xa;                                            해당 리소스가 컨테이너에 존재하지 않으면 컨테이너에서 제거" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="274" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="156" width="160" height="8" as="geometry" />
+          <mxGeometry y="314" width="500" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-20" value="Validate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-20" value="Direct2D를 사용하여 그래픽 렌더링을 수행." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="322" width="500" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-21" value="Output As Label" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
-          <mxGeometry y="190" width="160" height="26" as="geometry" />
+        <mxCell id="RoebklaST0RuIXWUr79K-21" value="GameApp Class 내부에 D2DRenderer 객체 생성" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-13">
+          <mxGeometry y="348" width="500" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RoebklaST0RuIXWUr79K-22" value="DemoApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="125" y="770" width="300" height="240" as="geometry">
@@ -97,10 +103,168 @@
         <mxCell id="RoebklaST0RuIXWUr79K-29" value="- 애플리케이션에 대한 진입점 정의&#xa;- GameApp 상속&#xa;- override는 부모의 가상함수를 재정의 한다고&#xa;  명확히 명시하여 새로 가상함수를 만드는 실수를 방지.&#xa;- Update() 에서 씬매니저 호출" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-22">
           <mxGeometry y="158" width="300" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RoebklaST0RuIXWUr79K-42" value="상속" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RoebklaST0RuIXWUr79K-22">
+        <mxCell id="RoebklaST0RuIXWUr79K-42" value="상속" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.409;entryY=-0.001;entryDx=0;entryDy=0;exitX=0.444;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--24" target="RoebklaST0RuIXWUr79K-22">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="274.5" y="662" as="sourcePoint" />
             <mxPoint x="274.5" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-49" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.004;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RoebklaST0RuIXWUr79K-43">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="475.5" as="sourcePoint" />
+            <mxPoint x="590" y="475.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-50" value="Animation" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=40;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="770" width="1270" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-51" value="AnimationAsset" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="930" width="550" height="456" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-57" value="struct FRAME_INFO : 애니메이션 기본 프레임의 기본 정보를 담은 구조체.&#xa;                                    해당 프레임의 소스 사각형(crop)과 렌더링 시간을 저장" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="26" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-74" value="m_Animations : 애니메이션의 각 프레임에 대한 정보를 저장하는 2차원 벡터. 각 프레임은&#xa;                          FRAME_INFO 구조체로 표현되며, 해당 프레임의 소스 사각형과 렌더링 시간을 저장" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="66" width="550" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-52" value="AnimationAsset() : 애니메이션에 사용되는 비트맵 이미지를 가리키는 포인터(m_pBitmap) 초기화" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="102" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-53" value="~AnimationAsset() : D2DRenderer의 ReleaseD2DBitmapFromFile()를 사용하여&#xa;                                애니메이션에 사용되는 비트맵 이미지를 가리키는 포인터(m_pBitmap) 해제&#xa;                        참조카운터가 0이면 완전히 제거되기전에  Factory에 더 이상 공유하지않는다고 알린다." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="128" width="550" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-54" value="Build() : 비트맵 이미지를 로드하여 애니메이션에 사용되는 비트맵 이미지를 가리키는&#xa;             포인터(m_pBitmap) 에 생성. D2DRenderer의 CreateD2DBitmapFromFile() 사용." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="186" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-55" value="SetBitmapFilePath() : 비트맵 이미지 파일의 경로를 설정.&#xa;                                   전달된 파일 경로를 비트맵 이미지 파일의 경로를 저장하는 문자열 변수에 저장" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="226" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-59" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="266" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-60" value="애니메이션에 필요한 변하지 않는 데이터 자산을 나타냄" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="274" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-61" value="애니메이션에 필요한 자원인 비트맵 이미지와 프레임 정보를 관리하고,&#xa;비트맵을 로드하고 해제하는 기능을 제공" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="300" width="550" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-88" value="파괴는 Release(D2DRenderer::ReleaseAnimationAsset)로 (비트맵 다 지우고 AnimationAsset 지움),&#xa;생성은 D2DRenderer(D2DRenderer::CreateAnimationAsset)가 하게한다." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="336" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-73" value="애니메이션에 필요한 기본 데이터 자산을 나타냄. 애니메이션에 필요한 정보를 저장하고,&#xa;해당 애니메이션의 비트맵 이미지를 생성하고 관리함." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="376" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-89" value="주로 애니메이션의 프레임 정보, 비트맵 이미지 파일 경로 등의 데이터를 가지고 있다.&#xa;D2DRenderer에서 비트맵 이미지를 생성하고 관리하기 위해 사용." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-51">
+          <mxGeometry y="416" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-62" value="AnimationInstance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="830" width="540" height="740" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-63" value="AnimationInstance() : 멤버변수들 초기화." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="26" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-64" value="~AnimationInstance() : m_pAnimationAsset이 가리키는 애니메이션 데이터 자산을 해제하기 위해&#xa;                                     D2DRenderer::ReleaseAnimationAsset() 호출.&#xa;                                     =&gt; 이를 통해 애니메이션 데이터의 참조 횟수를 감소&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="52" width="540" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-65" value="m_AnimationIndex : 현재 애니메이션 인덱스" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-66" value="m_FrameIndex : 현재 프레임 인덱스" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="130" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-67" value="m_ProgressTime : 애니메이션 진행시간" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="160" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-68" value="m_SrcRect : 시간에 따른 D2D1Bitmap의 Source 영역" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="190" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-77" value="m_DstRect : 시간에 따른 D2D1Bitmap의 Destination 영역" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="220" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-76" value="m_bMirror : 이미지를 뒤집을지 여부를 나타내는 플래그" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="250" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-78" value="m_Speed : 애니메이션 속도 조절을 위한 변수" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="280" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-75" value="m_Transform : 애니메이션 객체의 변환 행렬(위치와 방향)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="310" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-69" value="m_Position : 애니메이션 객체의 위치" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="340" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-79" value="SetProgressTime() : 애니메이션의 진행 시간을 설정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="370" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-80" value="SetSpeed() : 애니메이션의 속도를 설정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="400" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-81" value="SetAnimationInfo() : 애니메이션의 기본 데이터 자산을 설정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="430" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-82" value="Update() : 애니메이션을 업데이트하고 다음 프레임을 결정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="460" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-83" value="Render() : 애니메이션을 렌더링" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="490" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-85" value="SetAnimationIndex() : 애니메이션의 인덱스와 뒤집기 여부를 설정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="520" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-84" value="SetPosition() : 애니메이션 객체의 위치를 설정" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="550" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-70" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="580" width="540" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-71" value=" Direct2D를 사용하여 애니메이션을 렌더링하고 제어하는 데 사용" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="588" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-72" value="애니메이션의 프레임 및 타이밍 정보는 AnimationAsset 에서 가져옴.&#xa;AnimationInstance는 애니메이션을 실제로 실행하고 결과를 화면에 표시&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="614" width="540" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-87" value="애니메이션을 실제로 실행하는 개별 애니메이션 인스턴스를 나타냄.&#xa;특정 애니메이션에 대한 인덱스, 현재 프레임 인덱스, 애니메이션 진행 시간 등의 정보를 유지하며,&#xa;애니메이션의 업데이트 및 렌더링을 담당" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="650" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-86" value="특정 AnimationAsset 을 참조하여 해당 애니메이션의 정보를 사용하고,&#xa;애니메이션 객체의 위치, 회전, 크기 등을 조정하여 애니메이션을 표현" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RoebklaST0RuIXWUr79K-62">
+          <mxGeometry y="700" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-90" value="AnimationAsset은 애니메이션의 기본 데이터와 비트맵 이미지를 관리하고,&lt;br&gt;AnimationInstance은&amp;nbsp;실제로 애니메이션을 실행하고 화면에 렌더링하는 데 사용.&lt;br&gt;AnimationInstance은 특정 AnimationAsset에 의존하여 애니메이션 실행." style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="1470" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="RoebklaST0RuIXWUr79K-90">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-94" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1230" y="1169" as="sourcePoint" />
+            <mxPoint x="1320" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-101" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.769;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.923;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0300000000001" y="662.344" as="sourcePoint" />
+            <mxPoint x="300.4999999999999" y="770.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="299.6" y="720" />
+              <mxPoint x="300.6" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-102" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="RoebklaST0RuIXWUr79K-101">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoebklaST0RuIXWUr79K-103" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="RoebklaST0RuIXWUr79K-101">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
